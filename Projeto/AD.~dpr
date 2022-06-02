@@ -1,0 +1,14 @@
+program AD;
+
+uses
+  Forms,
+  frmMenuPrin in 'frmMenuPrin.pas' {menuPrin};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.Title := 'AD - Sistema Comercial';
+  Application.CreateForm(TmenuPrin, menuPrin);
+  Application.Run;
+end.
